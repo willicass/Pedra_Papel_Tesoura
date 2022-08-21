@@ -114,7 +114,7 @@ while continuarjogar == 'SIM':
 
     elif jogadaplayer == 2:
         contar()
-        if jogadamaquina == 1:
+        if jogadamaquina == '1':
             print(linhamaior)
             print(f'{verde}PARABÉNS, VOCÊ VENCEU!!')
             print(linhamaior)
@@ -124,7 +124,7 @@ while continuarjogar == 'SIM':
             continuarjogar = str(input('Digite sim para continuar a jogar: ')).upper()
             print('')
 
-        elif jogadamaquina == 0:
+        elif jogadamaquina == '0':
             print(linha)
             print(f'{vermelho}   VOCÊ PERDEU!!{terminodecor}')
             print(linha)
