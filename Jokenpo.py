@@ -168,6 +168,7 @@ while continuarjogar == 'SIM':
             print(f'Você {verde}GANHOU{terminodecor} com {verde}{pontosjogador}{terminodecor} '
                   f'e a máquina {vermelho}{pontosmaquina}')
             print(linhamaior + '\n')
+            
         elif pontosjogador == pontosmaquina:
             print(linhamaior)
             print(f'Você{amarelo}EMPATATOU{terminodecor} com {verde}{pontosjogador}{terminodecor} '
