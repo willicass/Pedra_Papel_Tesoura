@@ -148,41 +148,37 @@ while continuarjogar == 'SIM':
             print(linhamaior)
             print(f'Você está {verde}GANHANDO{terminodecor} com {verde}{pontosjogador}{terminodecor} '
                   f'e a máquina {vermelho}{pontosmaquina}')
-            print(linhamaior)
+            print(linhamaior + '\n')
 
         elif pontosjogador == pontosmaquina:
             print(linhamaior)
             print(f'Está {amarelo}EMPATADO{terminodecor}, você com {verde}{pontosjogador}{terminodecor} '
                   f'e a máquina {vermelho}{pontosmaquina}')
-            print(linhamaior)
+            print(linhamaior + '\n')
 
         else:
             print(linhamaior)
             print(f'Você está {vermelho}PERDENDO{terminodecor} com {verde}{pontosjogador}{terminodecor} '
                   f'e a máquina {vermelho}{pontosmaquina}')
-            print(linhamaior)
+            print(linhamaior + '\n')
 
     elif jogadaplayer == 4:
         if pontosjogador > pontosmaquina:
             print(linhamaior)
             print(f'Você {verde}GANHOU{terminodecor} com {verde}{pontosjogador}{terminodecor} '
                   f'e a máquina {vermelho}{pontosmaquina}')
-            print(linhamaior)
-            print('')
-
+            print(linhamaior + '\n')
         elif pontosjogador == pontosmaquina:
             print(linhamaior)
             print(f'Você{amarelo}EMPATATOU{terminodecor} com {verde}{pontosjogador}{terminodecor} '
                   f'e a máquina {vermelho}{pontosmaquina}')
-            print(linhamaior)
-            print('')
+            print(linhamaior + '\n')
 
         else:
             print(linhamaior)
             print(f'Você {vermelho}PERDEU{terminodecor} com {verde}{pontosjogador}{terminodecor} '
                   f'e a máquina {vermelho}{pontosmaquina}')
-            print(linhamaior)
-            print('')
+            print(linhamaior + '\n')
         quit()
 
     else:
